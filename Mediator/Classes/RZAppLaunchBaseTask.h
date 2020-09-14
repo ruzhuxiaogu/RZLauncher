@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Mediator/RZLauncher.h>
+#import <RZLauncher/RZLauncher.h>
 
 @interface RZAppLaunchBaseTask : NSObject <RZLaunchProtocol>
 
