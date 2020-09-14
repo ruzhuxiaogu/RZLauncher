@@ -7,76 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CCB9AFAD274142676AB6640A4DA376F /* RZLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E483F3218CB8A4E7E6FE03EDC746BE /* RZLauncher.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		11D765BE185CB0DB69F89C65775FE367 /* RZMapNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D400271A098DF86B28657CC12C8BAF64 /* RZMapNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		185D2080A3A54A0261D56FE2CFF0D27C /* RZMap.h in Headers */ = {isa = PBXBuildFile; fileRef = A323F7D2C9C5F96094EF80AD8BBCAC06 /* RZMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		32D90C297FFCFC4B42094643F5A510FD /* RZModuleRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E94DEC4752A6480D38DD79405CE44CC /* RZModuleRegister.m */; };
-		3EDF8E4214FF7EABA1DBD0F14FF6B704 /* RZModuleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF462474B9635C58F537CCBF42B8C2AA /* RZModuleMediator.m */; };
-		49509C3600E7E8A7B56EBF6EF24AF5DC /* RZLaunchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = DB7B2F999374ABB4C68D62E7822409A4 /* RZLaunchContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		49FCC195EB1987E3CD4AD901F078C285 /* RZMapNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEADEDF11119E838443478955108FFD /* RZMapNode.m */; };
-		4A2D5212CCC409A041E99D75251E422B /* RZAppLaunchBaseTask.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7A3CCEEC34374AF1B3715D7D10C005 /* RZAppLaunchBaseTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6667411DB2E5255D51F895D5ED258570 /* RZLaunchProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BD17070E06E7DBE86EC532791C2C5A5F /* RZLaunchProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6E26ED03B7D07F664D3D79C27D34FEAF /* RZModuleRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6E7203A2C1B02BE8541E563894AF0F /* RZModuleRegister.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7B43C6F48FFC68A44EA6BB1468107E5A /* Mediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A29C1347F761ACF3034B4DC659A99E /* Mediator-dummy.m */; };
-		8DF183975266AE7BF03C40E39F7AB92B /* RZLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4703AC6F7B041FE350F5C6EE7A44224F /* RZLauncher.m */; };
-		8E6D8D9831DF8D14603B92A10177A522 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFEF1DDF3D2D328528F7A565F5177D /* Pods-Example-dummy.m */; };
-		94C600D811F04EDAD9291B4B743F55EC /* RZLaunchContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF322619AC70F11121D6C3CC79FEFDD /* RZLaunchContext.m */; };
-		AAD3CD401D5947092363796620A8C762 /* RZAppLaunchBaseTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6936842E9483D327CD9517E99F542CD2 /* RZAppLaunchBaseTask.m */; };
-		AEBB164CB944D2DA3515E3BACCD8923C /* RZModuleMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B063695F282E4312CFA0110F6FD62B /* RZModuleMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B57451EDB7F05F19249BC447DE71B5D1 /* RZMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A57235941D5FD6B8913BFBEEE9608E63 /* RZMap.m */; };
-		DF00D4F4DB2DA34AA51DBBF132CAC336 /* RZModuleBaseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = F729BF5A1DAC3DDE8B8F5257C9B05E9D /* RZModuleBaseProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15454CF93911B5443976FC87A52BB842 /* RZLaunchContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD806D23EB66D9A1246BAA95390C60 /* RZLaunchContext.m */; };
+		32399A8C3A772E0810CF5ADC270B3492 /* RZLaunchContext.h in Headers */ = {isa = PBXBuildFile; fileRef = A10DBD189D838EFB2D346DD751316E37 /* RZLaunchContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BA001DB0624E2B8AFF0D9EC56620D45 /* RZMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E163DD65BD8E8BD43F6D9B632385CC9 /* RZMap.m */; };
+		44071C50CA52260C3C99460367BCF909 /* RZLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B427AADF9946C2608094F8EFAB3FD47 /* RZLauncher.m */; };
+		4C6002B8266267269BD97D69CAB16173 /* RZModuleRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C17A0270D38E6DBABCEFB8DC4FB108D /* RZModuleRegister.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D3FAEF557567FA0E9FF44B09AA2DF77 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFEF1DDF3D2D328528F7A565F5177D /* Pods-Example-dummy.m */; };
+		517E23F34D819EC42F325E9F13FFCD94 /* RZMapNode.h in Headers */ = {isa = PBXBuildFile; fileRef = CAFD8A3C88793D103E516FE23EEB0746 /* RZMapNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69D633362C56D99F18116C1D4C1198AB /* RZModuleBaseProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5BEB0511936F6D36C9CBEDE8AB75CB /* RZModuleBaseProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78A7DF0AB06B181C44CE33AB26115DEE /* RZAppLaunchBaseTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 049E68EE5D85BF7F89A4344624D3F134 /* RZAppLaunchBaseTask.m */; };
+		829F881AEFDFB32C4AC957980AD532D7 /* RZModuleRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3A32D96CF85CCDECAAD022528B0048 /* RZModuleRegister.m */; };
+		A8C426DECF05A86D00502EBB618A5C65 /* RZLauncher.h in Headers */ = {isa = PBXBuildFile; fileRef = 242F7D982252B6A81DFC3C5623E8EFAE /* RZLauncher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF6B199ED472ADA73FD686A5C4FCFF1D /* RZModuleMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 56956F180A265C824913D9EC5BAE23C4 /* RZModuleMediator.m */; };
+		B10445A7F49167D534A2257268BA0A03 /* RZAppLaunchBaseTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 57442DBAB5A986D5FD6E1245769E9E45 /* RZAppLaunchBaseTask.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B109A230C116B452E53CA29EFE545AE8 /* RZModuleMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CAB2FD44FD855355BE615495DBCD2B /* RZModuleMediator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD67507A3CA3CE1CB2EE773AF7C3ED10 /* RZLauncher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6232435218E6039A10D3CD8F0E4BB38 /* RZLauncher-dummy.m */; };
+		D2BC3CFD651F86FD63F404766304D59B /* RZMapNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 79270D80AF1A95C8F82F842C249B32A9 /* RZMapNode.m */; };
+		E23E20E0DCC740B4950CA393F643BFE2 /* RZMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AC096A5072CDF9F30B5A9D7D381DD67 /* RZMap.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC08CEF197AC439F6AC122C18436DFE0 /* RZLaunchProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CC1299D279B2A24A0B6BB052AFA325 /* RZLaunchProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		77F09097B820AD7F8B389B80A00CA8B4 /* PBXContainerItemProxy */ = {
+		817F4134AD59A0093DA83E6ABFD128F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6CFAD67B57B8C92887F7C3024A8C9955;
-			remoteInfo = Mediator;
+			remoteGlobalIDString = F82C0E8700DAC09B452F2DE0D0A15BF2;
+			remoteInfo = RZLauncher;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049E68EE5D85BF7F89A4344624D3F134 /* RZAppLaunchBaseTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZAppLaunchBaseTask.m; path = Mediator/Classes/RZAppLaunchBaseTask.m; sourceTree = "<group>"; };
+		04CAB2FD44FD855355BE615495DBCD2B /* RZModuleMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZModuleMediator.h; path = Mediator/Classes/RZModuleMediator.h; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CD681E9A60BB0B88519D88043755BA /* Mediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mediator-prefix.pch"; sourceTree = "<group>"; };
-		26E483F3218CB8A4E7E6FE03EDC746BE /* RZLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZLauncher.h; path = Mediator/Classes/RZLauncher.h; sourceTree = "<group>"; };
-		2E94DEC4752A6480D38DD79405CE44CC /* RZModuleRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZModuleRegister.m; path = Mediator/Classes/RZModuleRegister.m; sourceTree = "<group>"; };
-		2FF322619AC70F11121D6C3CC79FEFDD /* RZLaunchContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZLaunchContext.m; path = Mediator/Classes/RZLaunchContext.m; sourceTree = "<group>"; };
-		4703AC6F7B041FE350F5C6EE7A44224F /* RZLauncher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZLauncher.m; path = Mediator/Classes/RZLauncher.m; sourceTree = "<group>"; };
-		6936842E9483D327CD9517E99F542CD2 /* RZAppLaunchBaseTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZAppLaunchBaseTask.m; path = Mediator/Classes/RZAppLaunchBaseTask.m; sourceTree = "<group>"; };
-		6F6E7203A2C1B02BE8541E563894AF0F /* RZModuleRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZModuleRegister.h; path = Mediator/Classes/RZModuleRegister.h; sourceTree = "<group>"; };
-		7EEADEDF11119E838443478955108FFD /* RZMapNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RZMapNode.m; sourceTree = "<group>"; };
+		242F7D982252B6A81DFC3C5623E8EFAE /* RZLauncher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZLauncher.h; path = Mediator/Classes/RZLauncher.h; sourceTree = "<group>"; };
+		28CD806D23EB66D9A1246BAA95390C60 /* RZLaunchContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZLaunchContext.m; path = Mediator/Classes/RZLaunchContext.m; sourceTree = "<group>"; };
+		2E3A32D96CF85CCDECAAD022528B0048 /* RZModuleRegister.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZModuleRegister.m; path = Mediator/Classes/RZModuleRegister.m; sourceTree = "<group>"; };
+		3B427AADF9946C2608094F8EFAB3FD47 /* RZLauncher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZLauncher.m; path = Mediator/Classes/RZLauncher.m; sourceTree = "<group>"; };
+		45CC1299D279B2A24A0B6BB052AFA325 /* RZLaunchProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZLaunchProtocol.h; path = Mediator/Classes/RZLaunchProtocol.h; sourceTree = "<group>"; };
+		4B5BEB0511936F6D36C9CBEDE8AB75CB /* RZModuleBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZModuleBaseProtocol.h; path = Mediator/Classes/RZModuleBaseProtocol.h; sourceTree = "<group>"; };
+		56956F180A265C824913D9EC5BAE23C4 /* RZModuleMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZModuleMediator.m; path = Mediator/Classes/RZModuleMediator.m; sourceTree = "<group>"; };
+		57442DBAB5A986D5FD6E1245769E9E45 /* RZAppLaunchBaseTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZAppLaunchBaseTask.h; path = Mediator/Classes/RZAppLaunchBaseTask.h; sourceTree = "<group>"; };
+		5AC096A5072CDF9F30B5A9D7D381DD67 /* RZMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZMap.h; path = Mediator/Classes/Map/RZMap.h; sourceTree = "<group>"; };
+		6B4092BC115674C2A278ED7F9C594F9D /* RZLauncher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RZLauncher.xcconfig; sourceTree = "<group>"; };
+		79270D80AF1A95C8F82F842C249B32A9 /* RZMapNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZMapNode.m; path = Mediator/Classes/Map/RZMapNode.m; sourceTree = "<group>"; };
+		7C17A0270D38E6DBABCEFB8DC4FB108D /* RZModuleRegister.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZModuleRegister.h; path = Mediator/Classes/RZModuleRegister.h; sourceTree = "<group>"; };
 		873CDB2CE2AB3D55E7F7846B54D0067E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9492B758C3A973E44E498407D071C8D5 /* Mediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mediator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		995512BD8A1204FF064C89218D3D9059 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9A06B2CBC7F57E9BE08460BE730B397B /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A323F7D2C9C5F96094EF80AD8BBCAC06 /* RZMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RZMap.h; sourceTree = "<group>"; };
-		A57235941D5FD6B8913BFBEEE9608E63 /* RZMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RZMap.m; sourceTree = "<group>"; };
-		BD17070E06E7DBE86EC532791C2C5A5F /* RZLaunchProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZLaunchProtocol.h; path = Mediator/Classes/RZLaunchProtocol.h; sourceTree = "<group>"; };
-		BF462474B9635C58F537CCBF42B8C2AA /* RZModuleMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZModuleMediator.m; path = Mediator/Classes/RZModuleMediator.m; sourceTree = "<group>"; };
-		C4B063695F282E4312CFA0110F6FD62B /* RZModuleMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZModuleMediator.h; path = Mediator/Classes/RZModuleMediator.h; sourceTree = "<group>"; };
-		C541A59D075F79DF595F690591194305 /* libMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMediator.a; path = libMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E163DD65BD8E8BD43F6D9B632385CC9 /* RZMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RZMap.m; path = Mediator/Classes/Map/RZMap.m; sourceTree = "<group>"; };
+		A10DBD189D838EFB2D346DD751316E37 /* RZLaunchContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZLaunchContext.h; path = Mediator/Classes/RZLaunchContext.h; sourceTree = "<group>"; };
+		ACED3C32FC14FF62A258BE0D4B25BBB3 /* libRZLauncher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRZLauncher.a; path = libRZLauncher.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFD8A3C88793D103E516FE23EEB0746 /* RZMapNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZMapNode.h; path = Mediator/Classes/Map/RZMapNode.h; sourceTree = "<group>"; };
 		CEB5CE60F2648C5816E0D295E71A57FF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D3A29C1347F761ACF3034B4DC659A99E /* Mediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mediator-dummy.m"; sourceTree = "<group>"; };
-		D400271A098DF86B28657CC12C8BAF64 /* RZMapNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RZMapNode.h; sourceTree = "<group>"; };
 		D5BFEF1DDF3D2D328528F7A565F5177D /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		DB7B2F999374ABB4C68D62E7822409A4 /* RZLaunchContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZLaunchContext.h; path = Mediator/Classes/RZLaunchContext.h; sourceTree = "<group>"; };
-		EE7A3CCEEC34374AF1B3715D7D10C005 /* RZAppLaunchBaseTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZAppLaunchBaseTask.h; path = Mediator/Classes/RZAppLaunchBaseTask.h; sourceTree = "<group>"; };
-		EF98E3FCEFCD81B1892B6A8047871C60 /* Mediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mediator.xcconfig; sourceTree = "<group>"; };
-		F729BF5A1DAC3DDE8B8F5257C9B05E9D /* RZModuleBaseProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RZModuleBaseProtocol.h; path = Mediator/Classes/RZModuleBaseProtocol.h; sourceTree = "<group>"; };
+		E6232435218E6039A10D3CD8F0E4BB38 /* RZLauncher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RZLauncher-dummy.m"; sourceTree = "<group>"; };
+		FB98BF7FF341302E4357965D1D73B441 /* RZLauncher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RZLauncher-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		307641BA820D569F375320CDAC594456 /* Frameworks */ = {
+		6C7F03D62877EB6EF02A93A48DC99F46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		566BEB08A3C449211EC65758A3C889A6 /* Frameworks */ = {
+		DA262CA0AC29A4FDFB0EED352FD9125D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,46 +85,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		351B1910C261ADA875442DEC2CC757E7 /* Pod */ = {
+		57F3190C91236A94277AFFA9229C839D /* RZLauncher */ = {
 			isa = PBXGroup;
 			children = (
-				9492B758C3A973E44E498407D071C8D5 /* Mediator.podspec */,
+				57442DBAB5A986D5FD6E1245769E9E45 /* RZAppLaunchBaseTask.h */,
+				049E68EE5D85BF7F89A4344624D3F134 /* RZAppLaunchBaseTask.m */,
+				A10DBD189D838EFB2D346DD751316E37 /* RZLaunchContext.h */,
+				28CD806D23EB66D9A1246BAA95390C60 /* RZLaunchContext.m */,
+				242F7D982252B6A81DFC3C5623E8EFAE /* RZLauncher.h */,
+				3B427AADF9946C2608094F8EFAB3FD47 /* RZLauncher.m */,
+				45CC1299D279B2A24A0B6BB052AFA325 /* RZLaunchProtocol.h */,
+				5AC096A5072CDF9F30B5A9D7D381DD67 /* RZMap.h */,
+				9E163DD65BD8E8BD43F6D9B632385CC9 /* RZMap.m */,
+				CAFD8A3C88793D103E516FE23EEB0746 /* RZMapNode.h */,
+				79270D80AF1A95C8F82F842C249B32A9 /* RZMapNode.m */,
+				4B5BEB0511936F6D36C9CBEDE8AB75CB /* RZModuleBaseProtocol.h */,
+				04CAB2FD44FD855355BE615495DBCD2B /* RZModuleMediator.h */,
+				56956F180A265C824913D9EC5BAE23C4 /* RZModuleMediator.m */,
+				7C17A0270D38E6DBABCEFB8DC4FB108D /* RZModuleRegister.h */,
+				2E3A32D96CF85CCDECAAD022528B0048 /* RZModuleRegister.m */,
+				5D886A4BA6C731571C8472F864AB1173 /* Support Files */,
 			);
-			name = Pod;
+			name = RZLauncher;
+			path = RZLauncher;
 			sourceTree = "<group>";
 		};
-		36B3CEADAB586496EF5F6A36606D4C94 /* Support Files */ = {
+		5D886A4BA6C731571C8472F864AB1173 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF98E3FCEFCD81B1892B6A8047871C60 /* Mediator.xcconfig */,
-				D3A29C1347F761ACF3034B4DC659A99E /* Mediator-dummy.m */,
-				21CD681E9A60BB0B88519D88043755BA /* Mediator-prefix.pch */,
+				6B4092BC115674C2A278ED7F9C594F9D /* RZLauncher.xcconfig */,
+				E6232435218E6039A10D3CD8F0E4BB38 /* RZLauncher-dummy.m */,
+				FB98BF7FF341302E4357965D1D73B441 /* RZLauncher-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Mediator";
-			sourceTree = "<group>";
-		};
-		3A1752E8593E895DB67EF425866B9285 /* Mediator */ = {
-			isa = PBXGroup;
-			children = (
-				EE7A3CCEEC34374AF1B3715D7D10C005 /* RZAppLaunchBaseTask.h */,
-				6936842E9483D327CD9517E99F542CD2 /* RZAppLaunchBaseTask.m */,
-				DB7B2F999374ABB4C68D62E7822409A4 /* RZLaunchContext.h */,
-				2FF322619AC70F11121D6C3CC79FEFDD /* RZLaunchContext.m */,
-				26E483F3218CB8A4E7E6FE03EDC746BE /* RZLauncher.h */,
-				4703AC6F7B041FE350F5C6EE7A44224F /* RZLauncher.m */,
-				BD17070E06E7DBE86EC532791C2C5A5F /* RZLaunchProtocol.h */,
-				F729BF5A1DAC3DDE8B8F5257C9B05E9D /* RZModuleBaseProtocol.h */,
-				C4B063695F282E4312CFA0110F6FD62B /* RZModuleMediator.h */,
-				BF462474B9635C58F537CCBF42B8C2AA /* RZModuleMediator.m */,
-				6F6E7203A2C1B02BE8541E563894AF0F /* RZModuleRegister.h */,
-				2E94DEC4752A6480D38DD79405CE44CC /* RZModuleRegister.m */,
-				A2EFB91A7FF80AFA7F4367D3AA02A0F4 /* Map */,
-				351B1910C261ADA875442DEC2CC757E7 /* Pod */,
-				36B3CEADAB586496EF5F6A36606D4C94 /* Support Files */,
-			);
-			name = Mediator;
-			path = ../..;
+			path = "../Target Support Files/RZLauncher";
 			sourceTree = "<group>";
 		};
 		5FEFBFFE4CBFCEE496A3A740F57D04D5 /* Pods-Example */ = {
@@ -141,42 +134,21 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		959A4E5C8778443E2F895530005659EE /* Development Pods */ = {
+		63ADAE8BF7815510B4803C406398FAB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A1752E8593E895DB67EF425866B9285 /* Mediator */,
+				57F3190C91236A94277AFFA9229C839D /* RZLauncher */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A27E5C0015D0A83D9F1B32C48D43119D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C541A59D075F79DF595F690591194305 /* libMediator.a */,
-				1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A2EFB91A7FF80AFA7F4367D3AA02A0F4 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				A323F7D2C9C5F96094EF80AD8BBCAC06 /* RZMap.h */,
-				A57235941D5FD6B8913BFBEEE9608E63 /* RZMap.m */,
-				D400271A098DF86B28657CC12C8BAF64 /* RZMapNode.h */,
-				7EEADEDF11119E838443478955108FFD /* RZMapNode.m */,
-			);
-			name = Map;
-			path = Mediator/Classes/Map;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				959A4E5C8778443E2F895530005659EE /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				A27E5C0015D0A83D9F1B32C48D43119D /* Products */,
+				63ADAE8BF7815510B4803C406398FAB5 /* Pods */,
+				D83044DDEC7D76DBA327F67A37315259 /* Products */,
 				D5B8D0B62F1C86934FF4C6E7C9986E7F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -189,6 +161,15 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		D83044DDEC7D76DBA327F67A37315259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */,
+				ACED3C32FC14FF62A258BE0D4B25BBB3 /* libRZLauncher.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,26 +180,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		830DCA8701DA0FDDFBE472409D6EDE73 /* Headers */ = {
+		A3EAC24AC56ADA629A2EBD0E55FB9035 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B10445A7F49167D534A2257268BA0A03 /* RZAppLaunchBaseTask.h in Headers */,
+				32399A8C3A772E0810CF5ADC270B3492 /* RZLaunchContext.h in Headers */,
+				A8C426DECF05A86D00502EBB618A5C65 /* RZLauncher.h in Headers */,
+				EC08CEF197AC439F6AC122C18436DFE0 /* RZLaunchProtocol.h in Headers */,
+				E23E20E0DCC740B4950CA393F643BFE2 /* RZMap.h in Headers */,
+				517E23F34D819EC42F325E9F13FFCD94 /* RZMapNode.h in Headers */,
+				69D633362C56D99F18116C1D4C1198AB /* RZModuleBaseProtocol.h in Headers */,
+				B109A230C116B452E53CA29EFE545AE8 /* RZModuleMediator.h in Headers */,
+				4C6002B8266267269BD97D69CAB16173 /* RZModuleRegister.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E94A32CD4619188D13B81CA7BBA36EF /* Headers */ = {
+		D9B7AB701597ABEE5C6BE645E9B97FB4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A2D5212CCC409A041E99D75251E422B /* RZAppLaunchBaseTask.h in Headers */,
-				49509C3600E7E8A7B56EBF6EF24AF5DC /* RZLaunchContext.h in Headers */,
-				0CCB9AFAD274142676AB6640A4DA376F /* RZLauncher.h in Headers */,
-				6667411DB2E5255D51F895D5ED258570 /* RZLaunchProtocol.h in Headers */,
-				185D2080A3A54A0261D56FE2CFF0D27C /* RZMap.h in Headers */,
-				11D765BE185CB0DB69F89C65775FE367 /* RZMapNode.h in Headers */,
-				DF00D4F4DB2DA34AA51DBBF132CAC336 /* RZModuleBaseProtocol.h in Headers */,
-				AEBB164CB944D2DA3515E3BACCD8923C /* RZModuleMediator.h in Headers */,
-				6E26ED03B7D07F664D3D79C27D34FEAF /* RZModuleRegister.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,37 +208,37 @@
 /* Begin PBXNativeTarget section */
 		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24FC2433234C876CE3FA163D8F770E18 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = C349C5F12485B01EE1C6674739B63B43 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				830DCA8701DA0FDDFBE472409D6EDE73 /* Headers */,
-				7CE0DF724DADDEE1A7A58367AE4FA1C6 /* Sources */,
-				566BEB08A3C449211EC65758A3C889A6 /* Frameworks */,
+				D9B7AB701597ABEE5C6BE645E9B97FB4 /* Headers */,
+				8181BBEAE7F3A6305E345400D1D168C8 /* Sources */,
+				DA262CA0AC29A4FDFB0EED352FD9125D /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5A4F4C262C1DD1691D7F1AC0613A9FDA /* PBXTargetDependency */,
+				257095124B4D88A37D13E54064F2CB65 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
 			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6CFAD67B57B8C92887F7C3024A8C9955 /* Mediator */ = {
+		F82C0E8700DAC09B452F2DE0D0A15BF2 /* RZLauncher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99711FBE23656E692AB43A539F5A8E19 /* Build configuration list for PBXNativeTarget "Mediator" */;
+			buildConfigurationList = AAC8714F1B0D4D6F8F923ED2FD859320 /* Build configuration list for PBXNativeTarget "RZLauncher" */;
 			buildPhases = (
-				9E94A32CD4619188D13B81CA7BBA36EF /* Headers */,
-				94CF79E6B21B2F5D3BD85DDE655CFBF4 /* Sources */,
-				307641BA820D569F375320CDAC594456 /* Frameworks */,
+				A3EAC24AC56ADA629A2EBD0E55FB9035 /* Headers */,
+				A62172DBE1862DEF88C6BFBBBC4C30A2 /* Sources */,
+				6C7F03D62877EB6EF02A93A48DC99F46 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mediator;
-			productName = Mediator;
-			productReference = C541A59D075F79DF595F690591194305 /* libMediator.a */;
+			name = RZLauncher;
+			productName = RZLauncher;
+			productReference = ACED3C32FC14FF62A258BE0D4B25BBB3 /* libRZLauncher.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -278,67 +259,67 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = A27E5C0015D0A83D9F1B32C48D43119D /* Products */;
+			productRefGroup = D83044DDEC7D76DBA327F67A37315259 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CFAD67B57B8C92887F7C3024A8C9955 /* Mediator */,
 				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+				F82C0E8700DAC09B452F2DE0D0A15BF2 /* RZLauncher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7CE0DF724DADDEE1A7A58367AE4FA1C6 /* Sources */ = {
+		8181BBEAE7F3A6305E345400D1D168C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E6D8D9831DF8D14603B92A10177A522 /* Pods-Example-dummy.m in Sources */,
+				4D3FAEF557567FA0E9FF44B09AA2DF77 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94CF79E6B21B2F5D3BD85DDE655CFBF4 /* Sources */ = {
+		A62172DBE1862DEF88C6BFBBBC4C30A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B43C6F48FFC68A44EA6BB1468107E5A /* Mediator-dummy.m in Sources */,
-				AAD3CD401D5947092363796620A8C762 /* RZAppLaunchBaseTask.m in Sources */,
-				94C600D811F04EDAD9291B4B743F55EC /* RZLaunchContext.m in Sources */,
-				8DF183975266AE7BF03C40E39F7AB92B /* RZLauncher.m in Sources */,
-				B57451EDB7F05F19249BC447DE71B5D1 /* RZMap.m in Sources */,
-				49FCC195EB1987E3CD4AD901F078C285 /* RZMapNode.m in Sources */,
-				3EDF8E4214FF7EABA1DBD0F14FF6B704 /* RZModuleMediator.m in Sources */,
-				32D90C297FFCFC4B42094643F5A510FD /* RZModuleRegister.m in Sources */,
+				78A7DF0AB06B181C44CE33AB26115DEE /* RZAppLaunchBaseTask.m in Sources */,
+				15454CF93911B5443976FC87A52BB842 /* RZLaunchContext.m in Sources */,
+				BD67507A3CA3CE1CB2EE773AF7C3ED10 /* RZLauncher-dummy.m in Sources */,
+				44071C50CA52260C3C99460367BCF909 /* RZLauncher.m in Sources */,
+				3BA001DB0624E2B8AFF0D9EC56620D45 /* RZMap.m in Sources */,
+				D2BC3CFD651F86FD63F404766304D59B /* RZMapNode.m in Sources */,
+				AF6B199ED472ADA73FD686A5C4FCFF1D /* RZModuleMediator.m in Sources */,
+				829F881AEFDFB32C4AC957980AD532D7 /* RZModuleRegister.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5A4F4C262C1DD1691D7F1AC0613A9FDA /* PBXTargetDependency */ = {
+		257095124B4D88A37D13E54064F2CB65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Mediator;
-			target = 6CFAD67B57B8C92887F7C3024A8C9955 /* Mediator */;
-			targetProxy = 77F09097B820AD7F8B389B80A00CA8B4 /* PBXContainerItemProxy */;
+			name = RZLauncher;
+			target = F82C0E8700DAC09B452F2DE0D0A15BF2 /* RZLauncher */;
+			targetProxy = 817F4134AD59A0093DA83E6ABFD128F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4AECD886FB19EA3001E2B0C3680E06F4 /* Debug */ = {
+		0516847F72E540967716D85C04F0F047 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF98E3FCEFCD81B1892B6A8047871C60 /* Mediator.xcconfig */;
+			baseConfigurationReference = 6B4092BC115674C2A278ED7F9C594F9D /* RZLauncher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Mediator/Mediator-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/RZLauncher/RZLauncher-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Mediator;
-				PRODUCT_NAME = Mediator;
+				PRODUCT_MODULE_NAME = RZLauncher;
+				PRODUCT_NAME = RZLauncher;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -347,7 +328,7 @@
 			};
 			name = Debug;
 		};
-		575FB511BFACC5D6CD5E10A04731659C /* Release */ = {
+		16B1AE228033C4B347AA500F979CBE32 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A06B2CBC7F57E9BE08460BE730B397B /* Pods-Example.release.xcconfig */;
 			buildSettings = {
@@ -370,7 +351,7 @@
 			};
 			name = Release;
 		};
-		5858AD35EFD10DE93EDC263B91B940C5 /* Debug */ = {
+		4DBC7BEB26003495B559A884D766BF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 873CDB2CE2AB3D55E7F7846B54D0067E /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -456,21 +437,21 @@
 			};
 			name = Debug;
 		};
-		AB629245F748E1DC10C31E12586CEFA7 /* Release */ = {
+		CDD2473C0897B962180C926C0F172C88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF98E3FCEFCD81B1892B6A8047871C60 /* Mediator.xcconfig */;
+			baseConfigurationReference = 6B4092BC115674C2A278ED7F9C594F9D /* RZLauncher.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Mediator/Mediator-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/RZLauncher/RZLauncher-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Mediator;
-				PRODUCT_NAME = Mediator;
+				PRODUCT_MODULE_NAME = RZLauncher;
+				PRODUCT_NAME = RZLauncher;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -543,15 +524,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24FC2433234C876CE3FA163D8F770E18 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5858AD35EFD10DE93EDC263B91B940C5 /* Debug */,
-				575FB511BFACC5D6CD5E10A04731659C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -561,11 +533,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99711FBE23656E692AB43A539F5A8E19 /* Build configuration list for PBXNativeTarget "Mediator" */ = {
+		AAC8714F1B0D4D6F8F923ED2FD859320 /* Build configuration list for PBXNativeTarget "RZLauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AECD886FB19EA3001E2B0C3680E06F4 /* Debug */,
-				AB629245F748E1DC10C31E12586CEFA7 /* Release */,
+				0516847F72E540967716D85C04F0F047 /* Debug */,
+				CDD2473C0897B962180C926C0F172C88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C349C5F12485B01EE1C6674739B63B43 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBC7BEB26003495B559A884D766BF09 /* Debug */,
+				16B1AE228033C4B347AA500F979CBE32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

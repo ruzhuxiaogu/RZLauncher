@@ -1,5 +1,5 @@
 #import "SceneDelegate.h"
-#import <Mediator/RZLauncher.h>
+#import <RZLauncher/RZLauncher.h>
 
 @interface SceneDelegate ()
 

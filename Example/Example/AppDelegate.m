@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <Mediator/RZLauncher.h>
+#import <RZLauncher/RZLauncher.h>
 
 @interface AppDelegate ()
 

@@ -4,14 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Mediator.xcscheme</key>
+		<key>Pods-Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-Example.xcscheme</key>
+		<key>RZLauncher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

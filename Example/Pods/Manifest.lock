@@ -1,16 +1,16 @@
 PODS:
-  - Mediator (0.0.8)
+  - RZLauncher (0.0.1)
 
 DEPENDENCIES:
-  - Mediator (from `../`)
+  - RZLauncher (= 0.0.1)
 
-EXTERNAL SOURCES:
-  Mediator:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - RZLauncher
 
 SPEC CHECKSUMS:
-  Mediator: bb3b42a41b2d4846837faaa405c0b970ab8bd79d
+  RZLauncher: fdfeb4540e042215dd8b087295601d5b078c3e00
 
-PODFILE CHECKSUM: 599ca26efe523c874cf60c63ee1e65547615a429
+PODFILE CHECKSUM: 324b0663fe024d0d6b09c31be50f26b949c4af16
 
 COCOAPODS: 1.8.4
