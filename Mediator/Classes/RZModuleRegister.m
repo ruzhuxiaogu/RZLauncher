@@ -16,11 +16,11 @@
 #import <objc/message.h>
 #import <objc/runtime.h>
 
-NSArray<NSString*>* BHReadConfiguration(char* sectionName, const struct mach_header* mhp);
+NSArray<NSString*>* RZReadConfiguration(char* sectionName, const struct mach_header* mhp);
 
 static void dyld_callback(const struct mach_header* mhp, intptr_t vmaddr_slide)
 {
-    NSArray<NSString*>* protocol2Impls = BHReadConfiguration("RZModuleImpl", mhp);
+    NSArray<NSString*>* protocol2Impls = RZReadConfiguration("RZModuleImpl", mhp);
     for (NSString* protocol2ImplConfig in protocol2Impls) {
 
         NSArray* array = [protocol2ImplConfig componentsSeparatedByString:@":"];
@@ -36,7 +36,7 @@ static void dyld_callback(const struct mach_header* mhp, intptr_t vmaddr_slide)
     }
 }
 
-NSArray<NSString*>* BHReadConfiguration(char* sectionName, const struct mach_header* mhp)
+NSArray<NSString*>* RZReadConfiguration(char* sectionName, const struct mach_header* mhp)
 {
     NSMutableArray* configs = [NSMutableArray array];
     unsigned long size = 0;

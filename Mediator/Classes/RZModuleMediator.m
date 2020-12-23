@@ -74,7 +74,7 @@
     [_lock unlock];
 
     NSAssert(imp && [imp conformsToProtocol:protocol], @"❌ImpL 必须要遵从Protocol");
-    NSAssert([imp conformsToProtocol:@protocol(RZModuleBaseProtocol)], @"❌ImpL 实现的Protocol必须从QBModuleBaseProtocol继承!");
+    NSAssert([imp conformsToProtocol:@protocol(RZModuleBaseProtocol)], @"❌ImpL 实现的Protocol必须从RZModuleBaseProtocol继承!");
 
     return imp;
 }
